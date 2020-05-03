@@ -1,3 +1,142 @@
 body{
-    background-color: antiquewhite;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBpZikOBkvzsFie653nkLmGlzaAtVQ1bTPrJlRjP68H2opWb_h&usqp=CAU);
+
+    font-family: 'Mountains of Christmas', cursive !important;
 }
+.jumbotron{
+    background-color: rgb(40, 219, 55) !important;
+    border: 2px solid rgb(83, 78, 78);
+    text-shadow: 5px 5px black;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBpZikOBkvzsFie653nkLmGlzaAtVQ1bTPrJlRjP68H2opWb_h&usqp=CAU);
+    background-size: cover;
+    color: cornsilk;
+}
+.btn{
+    background-color: rgb(139, 8, 8) !important;
+    border: 2px solid rgb(83, 78, 78) !important;
+}
+
+.my-form{
+    border: 2px solid rgb(83, 78, 78);
+    border-radius: 10px;
+    color: rgb(212, 248, 6);
+    text-shadow: 5px 5px black;
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFAAtaPSbvjKhYE63SUGDCqoxwEq7z3p2I0_Qlgwi9x-uPCa6w&usqp=CAU);
+
+}
+input{
+    border: 2px solid rgb(83, 78, 78) !important;
+}
+
+
+
+.show{
+display: block;
+}
+.hide{
+    display:none;
+}
+
+.card{
+    width: 200px; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFAAtaPSbvjKhYE63SUGDCqoxwEq7z3p2I0_Qlgwi9x-uPCa6w&usqp=CAU);
+
+    
+    text-shadow: 3px 2px black;
+    
+    text-align: center;
+    margin: 10px;
+  
+    
+}
+
+#expel{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.house-card{
+    display: flex !important;
+    flex-wrap: wrap !important;   
+          
+}
+
+.expel-card{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    /* background-color: rgb(148, 98, 4); */
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQka6iXZNWgrA7BAYC8nmxuuwsdZU9iVphKEFwGOEa_iWMIXEXP&usqp=CAU);
+    margin-left: auto;
+    margin-right: auto;
+          
+}
+
+.Gryffindor{
+    color: darkorange;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFAAtaPSbvjKhYE63SUGDCqoxwEq7z3p2I0_Qlgwi9x-uPCa6w&usqp=CAU);
+
+
+}
+ .Hufflepuff {
+    color: rgb(83, 88, 8);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQiIThHH1bEPpNIHHubXh2phIHbw9HUl3SPbVK4jwP2Wq2OEslo&usqp=CAU);
+
+
+ }
+ .Ravenclaw {
+    color: rgb(12, 69, 122);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT19emVI9Dbn94l6dr-zw9CzQx2QwP-7zxTGD7Mvxxc4JEvEVu2&usqp=CAU);
+
+
+ }
+ .Slytherin{
+    color: rgb(175, 13, 27);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTNVwgXLcKDVfA2aCXnRfvfWh04fxxkV7wz1mCDU-LVO7NR2B8&usqp=CAU);
+
+
+ }
+ .voldermort{
+     color: dimgray;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT19emVI9Dbn94l6dr-zw9CzQx2QwP-7zxTGD7Mvxxc4JEvEVu2&usqp=CAU);
+
+ }
+ .hideBtn, .sortBtn{
+    text-shadow: 5px 5px black;
+ }
+ input{
+     background-color: burlywood !important;
+ }
+
+
+/*card shaking*/
+
+.card {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+
+
