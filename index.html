@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>SORTING-HAT</h1>
+
+    <div class="container">
+        <div class=" mt-5 jumbotron">
+            <h1 class="display-4">Welcome to Hoggy Hoggy Warts!</h1>
+            <p class="lead">The Sorting Hat is a sentient hat at Hogwarts that magically determines which of the four
+                school Houses each new student belongs most to. These four Houses are Gryffindor, Hufflepuff, Ravenclaw,
+                and Slytherin. The Sorting Hat originally belonged to Godric Gryffindor, one of the founders of Hogwarts
+            </p>
+            <hr class="my-4">
+            <div class="mb-5 d-flex flex-inline">
+                <h3 class="mr-5">Find out which house you belong to</h3>
+                <a class="btn btn-primary btn-lg" id="findBtn" href="#" role="button"> Enter!</a>
+            </div>
+            <p class="lead">
+
+                <a id="name" class="sortByName btn btn-primary btn-lg" href="#" role="button">Sort by Name</a>
+                <a id="house" class="sortByHouse btn btn-primary btn-lg" href="#" role="button">Sort by House</a>
+            </p>
+        </div>
+        <div class="my-form hide">
+
+            <div class="col-6 my-3 d-flex justify-content-start">
+                <h4>Enter First Year's Name</h4>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-9">
+
+                    <form class="mb-5 form-inline d-flex justify-content-around">
+                        <h2>Student:</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <button type="submit" class="sortBtn btn btn-primary mb-2">Dare!</button>
+                        <button type="submit" class="hideBtn btn btn-primary mb-2">Scared!</button>
+                    </form>
+                </div>
 
 
-    <script src="main.js"></script>
+                
+
+            </div>
+        </div>
+        
+        <div class="house-card mb-5"></div>
+        <div>
+
+        
+        <div class="expel-card mb-5"></div>
+    </div>
+    
+
+    </div>
+
+
+           
+            <script src="main.js"></script>
 </body>
+
 </html>
